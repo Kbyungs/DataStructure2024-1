@@ -17,5 +17,5 @@ def quickSort(a):
   # 3개를 모두 합쳐서 반환
   return temp_low + [pivot] + temp_high
 
-n = [6, 4, 2, 1, 22, 9, 17]
+n = [6, 4, 2, 1, 22, 9]
 print(quickSort(n))
